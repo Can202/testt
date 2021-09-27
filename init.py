@@ -8,10 +8,10 @@ import requests
 
 def main():
     startup = appdirs.user_data_dir() + "\\..\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
-    fil = requests.get("https://github.com/idur-package/Visual-Idur/releases/download/v0.1/visual-idur-x86_64.tar.xz")
-    with open("visual-idur-x86_64.tar.xz", 'wb') as f:
-        f.write(fil.content)
-    exit()
+    #fil = requests.get("https://github.com/idur-package/Visual-Idur/releases/download/v0.1/visual-idur-x86_64.tar.xz")
+    #with open("visual-idur-x86_64.tar.xz", 'wb') as f:
+    #    f.write(fil.content)
+    #exit()
     
     while True:
 
